@@ -1,0 +1,14 @@
+ .wrap { display: flex; flex-direction: column; gap: 14px; }
+ .header { display: flex; align-items: center; justify-content: space-between; }
+ .title { font-size: 22px; }
+ .actions { display: flex; gap: 8px; }
+ .btn { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 14px; border-radius: 999px; font-weight: 600; border: 1px solid rgba(255,255,255,0.12); color: #eef0f6; background: #6c47ff; }
+ .btnSecondary { background: rgba(255,255,255,0.06); }
+ .card { background: #101218; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 16px; }
+ .tabs { display: flex; gap: 8px; }
+ .tab { background: rgba(255,255,255,0.06); color: #d7dbea; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; padding: 8px 12px; font-weight: 600; }
+ .tabActive { background: #6c47ff; color: #fff; }
+ .list { display: grid; gap: 8px; }
+ .item { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center; background: #0f1117; border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 10px 12px; }
+ .redeemRow { display: flex; gap: 8px; }
+ .input { height: 36px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); background: #0f1117; color: #eef0f6; padding: 0 10px; }
